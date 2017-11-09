@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Moosikay&nbsp;Melo's</a>
+                <a class="navbar-brand" href="index.html">Golden Cup</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -55,6 +55,7 @@
                                         <th>Amount</th>
 										<th>Status</th>
 										<th>Mode of Payment</th>
+                                        <th>Date</th>
 										
                                     </tr>
                                 </thead>
@@ -81,6 +82,7 @@
                                             <td><?php echo $cart_row['total']; ?></td>
                                             <td><?php echo $cart_row['status']; ?></td>
 										    <td><?php echo $cart_row['modeofpayment']; ?></td>
+                                            <td><?php echo $cart_row['date']; ?></td>
 											
                                         </tr>
                                             

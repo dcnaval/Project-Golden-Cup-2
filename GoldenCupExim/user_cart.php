@@ -52,7 +52,7 @@
                                             <td width="100"><a href="#orderdel<?php echo $order_id; ?>" role="button"  data-toggle="modal" class="btn btn-danger"><i class="icon-remove icon-large"></i>&nbsp;Remove</a></td>
                                         </tr>
                                         <!-- product delete modal -->
-                                    <div id="orderdel<?php echo $order_id; ?>" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div id="orderdel<?php echo $order_id; ?>" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-header">
                                         </div>
                                         <div class="modal-body">
@@ -63,7 +63,7 @@
                                             <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;No</button>
 
                                         </div>
-                                    </div>
+                              </div>
                                     <!-- end delete modal -->
 
                                 <?php } ?>
@@ -81,7 +81,12 @@
                             $result = mysql_query("SELECT sum(total) FROM order_details WHERE memberID='$ses_id' and status = 'Pending'") or die(mysql_error());
                             while ($rows = mysql_fetch_array($result)) {
                                 ?>
-                                <center> <a href="#order" role="button"  data-toggle="modal"class="btn btn-success"><i class="icon-truck icon-large"></i>&nbsp;Proceed to PayPal?</a></center>
+                                <center> 
+                                  <p><a href="#order" role="button"  data-toggle="modal"class="btn btn-success"><i class="icon-truck icon-large"></i>&nbsp;Proceed to PayPal?</a> </p>
+                               
+                                
+                                
+                                 <a href="#order_delivery" role="button"  data-toggle="modal"class="btn btn-success"><i class="icon-truck icon-large"></i>&nbsp;Cash On Delivery?</a></center>
                                 <div class="pull-right">
                                     <div class="span"><div class="alert alert-success"><i class="icon-credit-card icon-large"></i>&nbsp;Total:&nbsp;<?php echo $rows['sum(total)']; ?></div></div>
                                 </div>
@@ -98,11 +103,36 @@
                             </div>
                             <div class="modal-body">
 							<div class="alert alert-info">Payment</div>
-							 <div class="alert alert-danger">By Clicking Paypal Icon you Agree to the&nbsp;<strong>Terms and Condition &nbsp;</strong>of this company</div>
+							 <div class="alert alert-danger">By Clicking Icon you Agree to the&nbsp;<strong>Terms and Condition &nbsp;</strong>of this company</div>
 						
 			
 					
 							<a class="btn" href="pay.php<?php echo '?id='.$ses_id; ?>">Yes</a>
+				
+
+							
+							   
+							   
+                            </div>
+                            <div class="modal-footer">
+                            
+                                <button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i>&nbsp;No</button>
+
+                            </div>
+                        </div>
+                        <!-- end delete modal -->
+                        
+                         <!-- product order delivery modal -->
+                        <div id="order_delivery" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-header">
+                            </div>
+                            <div class="modal-body">
+							<div class="alert alert-info">Payment</div>
+							 <div class="alert alert-danger">By Clicking Icon you Agree to the&nbsp;<strong>Terms and Condition &nbsp;</strong>of this company</div>
+						
+			
+					
+							<a class="btn" href="pay_delivery.php<?php echo '?id='.$ses_id; ?>">Yes</a>
 				
 
 							

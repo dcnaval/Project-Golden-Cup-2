@@ -20,8 +20,8 @@ $get_id=$_GET['id'];
 				$confirmation = createRandomPassword();
 						
 
-/* mysql_query("update order_details set status='Pending',transaction_code='$confirmation',modeofpayment='Online' where MemberID='$get_id'")or die(mysql_error());
- */
+mysql_query("update order_details set modeofpayment='Paypal', date=curdate() where MemberID='$get_id'")or die(mysql_error());
+ 
 
 
 ?>
@@ -43,7 +43,7 @@ $get_id=$_GET['id'];
                         <span><a href="user_index.php"><i class="icon-home icon-large"></i>Home</a></span>
                     </li>
                     <li>
-                        <span><a href="user_guitar.php"><i class=" icon-th-large icon-large"></i>Products</a></span>
+                        <span><a href="user_canon.php"><i class=" icon-th-large icon-large"></i>Products</a></span>
                     </li>
 
                     <li>

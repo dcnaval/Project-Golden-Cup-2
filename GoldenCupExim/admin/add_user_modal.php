@@ -7,32 +7,32 @@
                                         </div>
                                         <div class="modal-body">
                             <form  method="post" enctype="multipart/form-data">
-                                <div class="alert alert-info"><strong><center>Add Product </center></strong></div>
+                                <div class="alert alert-info"><strong><center>Add User </center></strong></div>
                                 <hr>
 								
 								<div class="control-group">
-                                    <label class="control-label" for="inputEmail">FirstName:</label>
+                                    <label class="control-label" for="inputEmail">First Name:</label>
                                     <div class="controls">
-                                        <input type="text" class = "form-control"name="fn" id="inputEmail" placeholder="Firstname">
+                                        <input type="text" class = "form-control"name="fn" id="inputEmail" placeholder="">
                                     </div>
                                 </div>
                                
                                 <div class="control-group">
-                                    <label class="control-label" for="inputPassword">LastName:</label>
+                                    <label class="control-label" for="inputPassword">Last Name:</label>
                                     <div class="controls">
-                                        <input type="text"  name="ln" class = "form-control" placeholder="Lastname">
+                                        <input type="text"  name="ln" class = "form-control" placeholder="">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="inputPassword">Username:</label>
                                     <div class="controls">
-                                        <input type="text" name="un"  class = "form-control" placeholder="Username">
+                                        <input type="text" name="un"  class = "form-control" placeholder="">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="inputPassword">Password:</label>
                                     <div class="controls">
-                                        <input type="text" name="p" class = "form-control"  placeholder="Password">
+                                        <input type="text" name="p" class = "form-control"  placeholder="">
                                     </div>
                                 </div>
 

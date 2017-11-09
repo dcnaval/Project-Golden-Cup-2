@@ -16,7 +16,9 @@
 
 </ul>
 <p>
-     <a href="">&copy; Golden Cup Exim Marketing All Rights Reserved.</a> 
+     &copy;Golden Cup Exim Marketing </p>
+                                    <p> 2437 Tejeron Street (Revillen Corner), 
+ Sta. Ana, Manila City Tel: 562-4566 / 564-0466</a> 
 </p>
 
 

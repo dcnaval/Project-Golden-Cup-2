@@ -13,7 +13,7 @@ $get_id = $_GET['id'];
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Golden Cup&nbsp;Ordering </a>
+                <a class="navbar-brand" href="index.html">Golden Cup </a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">

@@ -56,6 +56,7 @@
                                         <th>Amount</th>
 										<th>Status</th>
 										<th>Mode of Payment</th>
+                                        <th>Date</th>
 										<th>Action</th>
                                     </tr>
                                 </thead>
@@ -82,6 +83,7 @@
                                             <td><?php echo $cart_row['total']; ?></td>
                                             <td><?php echo $cart_row['status']; ?></td>
 										    <td><?php echo $cart_row['modeofpayment']; ?></td>
+                                             <td><?php echo $cart_row['date']; ?></td>
 										    <td width="140"><a href="update_status.php<?php echo '?id='.$order_id; ?>" class="btn btn-success"><i class="fa fa-check"></i>&nbsp;Confirm Order</a></td>
 											
                                         </tr>
