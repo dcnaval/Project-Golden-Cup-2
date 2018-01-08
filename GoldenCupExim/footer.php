@@ -1,28 +1,55 @@
+<div class="row">
+		<div class="span3">
+			<h5><font color="black">&nbsp;&nbsp;&nbsp;</font></h5>
+<b><font color="black">
+ Address: 2437 Tejeron St, Santa Ana, Manila &nbsp;&nbsp; &nbsp;
+Numbers No:562-4566 / 564-0466 
 
-<ul>
-    <li class="">
-                        <span><a href="index.php" ><i class="icon-home icon-large"></i> Home</a></span>
-                    </li>
-                    <li>
-                        <span><a href="canon.php"><i class=" icon-th-large icon-large"></i> Products</a></span>
-                    </li>
+		 </div>
 
-                    <li>
-                        <span><a href="about.php"><i class="icon-info-sign icon-large"></i> About US</a></span>
-                    </li>
-
-                    <li>
-                        <span><a href="contact.php"><i class="icon-phone-sign icon-large"></i> Contact US</a></span>
-                    </li>
-                    <li>
-                        <span><a href="order.php"><i class="icon-shopping-cart icon-large"></i> Order Now</a></span>
-                    </li>
-
-</ul>
-<p>
-     &copy;Golden Cup Exim Marketing </p>
-                                    <p> 2437 Tejeron Street (Revillen Corner), 
- Sta. Ana, Manila City Tel: 562-4566 / 564-0466</a> 
-</p>
+		 <div class="span3">
+			<p> </p>
+		 </div></font>
+		
+		<div id="socialMedia" class="span3 pull-right"></font>    
+			<font color="black"><b>SOCIAL MEDIA </b></font><br />
+            
+			<a href="https://www.facebook.com/GoldenCupEximMarketingCorporation/"><img width="60" src="assets/img/facebook.png" title="facebook"/></a>
+			
+		 </div> 
+	 </div><center>
+   
+	 <hr class="soft">
+	<p class=""><center><font color="black">&copy; Golden Cup Exim Marketing. <?php echo date("Y")?></font></center></p>
+	</div><!-- /container --></center>
 
 
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/jquery.lightbox-0.5.js"></script>
+	<script src="assets/js/bootsshoptgl.js"></script>
+	 <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+  </body>
+</html>
